@@ -381,7 +381,7 @@ useEffect(() => {
         >
           {/* RUIZARTE */}
           <div style={{ display: "flex" }}>
-            {"RUIZARTE".split("").map((ch, i) => (
+            {"RWZARIE".split("").map((ch, i) => (
               <span
                 key={i}
                 className="char-ruizarte"

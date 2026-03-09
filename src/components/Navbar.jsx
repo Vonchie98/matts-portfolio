@@ -51,7 +51,7 @@ style={{
   }}
 >
   <img
-    src="src/assets/matts_logo.webp"
+    src="./public/matts_logo.webp"
     alt="Ruizarte Legacy Photography"
     style={{
       display: "block",
