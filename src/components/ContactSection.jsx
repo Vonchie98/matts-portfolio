@@ -5,7 +5,6 @@ import {
   MapPin,
   Phone,
   Send,
-  Twitch,
   Twitter,
 } from "lucide-react";
 import { cn } from "@/lib/utils";
@@ -37,8 +36,8 @@ export const ContactSection = () => {
         </h2>
 
         <p className="text-center text-muted-foreground mb-12 max-w-2xl mx-auto">
-          Have a project in mind or want to collaborate? Feel free to reach out.
-          I'm always open to discussing new opportunities.
+          Have a session in mind or want to collaborate on a creative project? 
+          Feel free to reach out — I'm always open to capturing new stories and meaningful moments.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
@@ -84,7 +83,7 @@ export const ContactSection = () => {
                 <div>
                   <h4 className="font-medium"> Location</h4>
                   <a className="text-muted-foreground hover:text-primary transition-colors">
-                    Vancouver, BC, Canada
+                    Mesquite, TX, USA
                   </a>
                 </div>
               </div>
@@ -101,9 +100,6 @@ export const ContactSection = () => {
                 </a>
                 <a href="#" target="_blank">
                   <Instagram />
-                </a>
-                <a href="#" target="_blank">
-                  <Twitch />
                 </a>
               </div>
             </div>
