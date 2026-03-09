@@ -45,7 +45,7 @@ export const ImageIntro = ({ onComplete }) => {
     >
       {/* Full screen background image */}
       <img
-        src="./public/matts_dad.jpg"  // ← drop your image in /public
+        src="/matts_dad.jpg"  // ← drop your image in /public
         alt=""
         style={{
           position: "absolute",

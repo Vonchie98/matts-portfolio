@@ -5,7 +5,7 @@ const projects = [
     id: 1,
     title: "SaaS Landing Page",
     description: "Raw, powerful protest photography documenting the energy, emotion, and humanity behind every movement.",
-    image: "./public/front_page1.jpg",
+    image: "/front_page1.jpg",
     tags: ["Documentary", "Street", "Photojournalism"],
     demoUrl: "#",
     githubUrl: "#",
@@ -15,7 +15,7 @@ const projects = [
     title: "Orbit Analytics Dashboard",
     description:
       "Warm, authentic family sessions that preserve your most cherished memories forever.",
-    image: "./public/front_page2.jpg",  
+    image: "/front_page2.jpg",  
     tags: ["Portraits", "Natural Light", "Family"],
     demoUrl: "#",
     githubUrl: "#",
@@ -25,7 +25,7 @@ const projects = [
     title: "Steel & Motion",
     description:
       "Dynamic automotive photography that captures the power, elegance, and character of every vehicle.",
-    image: "./public/frontpage3.jpg",
+    image: "/frontpage3.jpg",
     tags: ["Automotive", "Commercial", "Detail Shots"],
     demoUrl: "#",
     githubUrl: "#",
