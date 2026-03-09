@@ -381,7 +381,7 @@ useEffect(() => {
         >
           {/* RUIZARTE */}
           <div style={{ display: "flex" }}>
-            {"RWZARIE".split("").map((ch, i) => (
+            {"RUYZARTE".split("").map((ch, i) => (
               <span
                 key={i}
                 className="char-ruizarte"
@@ -394,7 +394,7 @@ useEffect(() => {
                   textShadow: "1px 1px 0 hsl(228,50%,70%), 0 0 10px hsl(215,80%,55%)",
                   letterSpacing: "0.03em",
                   lineHeight: 1.1,
-                  fontFamily: "'Georgia', serif",
+                  fontFamily: "'UnifrakturMaguntia', cursive",
                 }}
               >
                 {ch}
@@ -417,7 +417,7 @@ useEffect(() => {
                   textShadow: "1px 1px 0 hsl(228,50%,70%), 0 0 10px hsl(215,80%,55%)",
                   letterSpacing: "0.03em",
                   lineHeight: 1.1,
-                  fontFamily: "'Georgia', serif",
+                  fontFamily: "'UnifrakturMaguntia', cursive"
                 }}
               >
                 {ch}
@@ -438,7 +438,7 @@ useEffect(() => {
     fontWeight: 700,
     color: "hsl(228, 62%, 30%)",
     letterSpacing: "0.18em",
-    fontFamily: "'Georgia', serif",
+    fontFamily: "'UnifrakturMaguntia', cursive",
     whiteSpace: "nowrap",
   }}
 >
