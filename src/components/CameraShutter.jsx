@@ -97,7 +97,7 @@ export const CameraShutter = ({ onComplete }) => {
           {/* Text */}
           <div style={{ position: "absolute", top: "72px", left: "52px", zIndex: 2 }}>
             <div style={{ display: "flex" }}>
-              {"RUIZARTE".split("").map((ch, i) => (
+              {"RUYZARTE".split("").map((ch, i) => (
                 <span key={i} style={{
                   display: "inline-block",
                   fontSize: "clamp(26px, 4.5vw, 38px)",
@@ -107,7 +107,7 @@ export const CameraShutter = ({ onComplete }) => {
                   textShadow: "1px 1px 0 hsl(228,50%,70%), 0 0 10px hsl(215,80%,55%)",
                   letterSpacing: "0.03em",
                   lineHeight: 1.1,
-                  fontFamily: "'Georgia', serif",
+                  fontFamily: "'UnifrakturMaguntia', cursive",
                 }}>{ch}</span>
               ))}
             </div>
@@ -122,7 +122,7 @@ export const CameraShutter = ({ onComplete }) => {
                   textShadow: "1px 1px 0 hsl(228,50%,70%), 0 0 10px hsl(215,80%,55%)",
                   letterSpacing: "0.03em",
                   lineHeight: 1.1,
-                  fontFamily: "'Georgia', serif",
+                  fontFamily: "'UnifrakturMaguntia', cursive" ,
                 }}>{ch}</span>
               ))}
             </div>
@@ -138,7 +138,7 @@ export const CameraShutter = ({ onComplete }) => {
             fontWeight: 700,
             color: "hsl(228, 62%, 30%)",
             letterSpacing: "0.18em",
-            fontFamily: "'Georgia', serif",
+            fontFamily: "'UnifrakturMaguntia', cursive" ,
             whiteSpace: "nowrap",
           }}>
             PHOTOGRAPHY
